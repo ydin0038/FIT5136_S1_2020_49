@@ -1,0 +1,3 @@
+ADM0001,123456,Administrator
+COO0001,123456,Coordinator
+CAN0001,123456,Candidate
