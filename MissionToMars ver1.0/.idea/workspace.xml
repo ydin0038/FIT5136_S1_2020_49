@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37e49cc8-65f3-4d86-8bb4-7e3cdb17bbc0" name="Default Changelist" comment="" />
+    <list default="true" id="37e49cc8-65f3-4d86-8bb4-7e3cdb17bbc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MissionToMarsSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissionToMarsSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1c1JFPVC2J1fPLyGEvZjJnJW3uJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +32,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UserInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserInterface" />
+      <module name="MissionToMars ver1.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserInterface" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,11 +62,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="180" key="#com.intellij.ide.util.MemberChooser" timestamp="1589693593877">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1591167119675">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589692400889" />
+    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591167119675" />
     <state x="533" y="180" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1589693593877" />
+    <state x="286" y="55" key="CommitChangelistDialog2" timestamp="1591167418286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="286" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591167418286" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1591167428242">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591167428242" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1591167428241">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591167428241" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1591167428241">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591167428241" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1591167428242">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591167428242" />
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1591161228733">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591161228733" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591167410493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591167410493" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589691193479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

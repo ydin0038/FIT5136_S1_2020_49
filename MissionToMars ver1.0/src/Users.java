@@ -3,25 +3,25 @@
  */
 
 public class Users {
-    private int userID;
+    private String userID;
     private String password;
     private String characterType;
 
     public Users() {
     }
 
-    public Users(int userID, String password, String characterType) {
+    public Users(String userID, String password, String characterType) {
         this.userID = userID;
         this.password = password;
         this.characterType = characterType;
     }
 
     
-    public int getUserID() {
+    public String getUserID() {
         return userID;
     }
 
-    public void setUserID(int userID) {
+    public void setUserID(String userID) {
         this.userID = userID;
     }
 

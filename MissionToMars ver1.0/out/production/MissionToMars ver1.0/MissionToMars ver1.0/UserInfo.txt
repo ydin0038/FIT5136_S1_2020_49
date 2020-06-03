@@ -1,3 +1,0 @@
-3001,123456,Administrator
-1001,123456,Coordinator
-4001,123456,Candidate
