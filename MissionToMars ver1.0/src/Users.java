@@ -40,4 +40,18 @@ public class Users {
     public void setCharacterType(String characterType) {
         this.characterType = characterType;
     }
+
+    public Administrator setAdministrator()
+    {
+        Administrator ad = new Administrator();
+        ad.setUserID(userID);
+        String[] adArray = MissionToMarsSystem.readFile("Administrator").split("\\n");
+        for (int i = 0; i < adArray.length; i++){
+            String[] adDetails = adArray[i].split(";");
+            if (userID == adDetails[0]){
+                ad.setAdminName(adDetails[1]);
+            }
+        }
+        return ad;
+    }
 }

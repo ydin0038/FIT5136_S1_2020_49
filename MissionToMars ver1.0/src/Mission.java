@@ -4,6 +4,12 @@ import java.util.ArrayList;
  * Class of the missions in the Mission to Mars System
  */
 
+import java.util.ArrayList;
+
+/**
+ * Class of the missions in the Mission to Mars System
+ */
+
 public class Mission {
     private int missionId;
     private String missionName;
@@ -18,11 +24,12 @@ public class Mission {
     private String destination;
     private int duration;
     private String missionStatus;
+    private Shuttle shuttle;
 
     public Mission() {
     }
 
-    public Mission(int missionId, String missionName, String missionDescription, String countryOfOrigin, String countriesAllowed, Coordinator coordinator, ArrayList<CargoRequirement> cargoRequirement, ArrayList<Job> jobs, ArrayList<EmploymentRequirement> employmentRequirement, String launchDate, String destination, int duration, String missionStatus) {
+    public Mission(int missionId, String missionName, String missionDescription, String countryOfOrigin, String countriesAllowed, Coordinator coordinator, ArrayList<CargoRequirement> cargoRequirement, ArrayList<Job> jobs, ArrayList<EmploymentRequirement> employmentRequirement, String launchDate, String destination, int duration, String missionStatus, Shuttle shuttle) {
         this.missionId = missionId;
         this.missionName = missionName;
         this.missionDescription = missionDescription;
@@ -36,6 +43,7 @@ public class Mission {
         this.destination = destination;
         this.duration = duration;
         this.missionStatus = missionStatus;
+        this.shuttle = shuttle;
     }
 
     public int getMissionId() {
@@ -140,5 +148,11 @@ public class Mission {
 
     public void setMissionStatus(String missionStatus) {
         this.missionStatus = missionStatus;
+    }
+    public Shuttle getShuttle(){
+        return shuttle;
+    }
+    public void setShuttle(Shuttle shuttle){
+        this.shuttle = shuttle;
     }
 }

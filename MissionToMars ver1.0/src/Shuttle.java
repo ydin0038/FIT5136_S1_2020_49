@@ -5,16 +5,17 @@
 public class Shuttle {
     private int shuttleID;
     private String shuttleName;
-    private int manuYear;
+    private String manuYear;
     private int fuelCap;
     private int passengerCap;
     private int cargoCap;
     private int travelSpeed;
+    private String nationality;
 
     public Shuttle() {
     }
 
-    public Shuttle(int shuttleID, String shuttleName, int manuYear, int fuelCap, int passengerCap, int cargoCap, int travelSpeed) {
+    public Shuttle(int shuttleID, String shuttleName, String manuYear, int fuelCap, int passengerCap, int cargoCap, int travelSpeed,String nationality) {
         this.shuttleID = shuttleID;
         this.shuttleName = shuttleName;
         this.manuYear = manuYear;
@@ -22,6 +23,7 @@ public class Shuttle {
         this.passengerCap = passengerCap;
         this.cargoCap = cargoCap;
         this.travelSpeed = travelSpeed;
+        this.nationality = nationality;
     }
 
     public int getShuttleID() {
@@ -40,11 +42,11 @@ public class Shuttle {
         this.shuttleName = shuttleName;
     }
 
-    public int getManuYear() {
+    public String getManuYear() {
         return manuYear;
     }
 
-    public void setManuYear(int manuYear) {
+    public void setManuYear(String manuYear) {
         this.manuYear = manuYear;
     }
 
@@ -79,4 +81,31 @@ public class Shuttle {
     public void setTravelSpeed(int travelSpeed) {
         this.travelSpeed = travelSpeed;
     }
+
+    public String getNationality(){
+        return nationality;
+    }
+
+    public void setNationality(String nationality){
+        this.nationality = nationality;
+    }
+
+    public String showIdAndName(int index){
+        String presentation = new String();
+        presentation = Integer.toString(index) + ". Id: " + Integer.toString(shuttleID) + " Name: " + shuttleName;
+        return presentation;
+    }
+
+    public void showDetails(){
+        System.out.println("Id: " + shuttleID);
+        System.out.println("Name: " + shuttleName);
+        System.out.println("ManuYear: " + manuYear);
+        System.out.println("Fuel capability: "+ fuelCap);
+        System.out.println("Passagener capability: "+ passengerCap );
+        System.out.println("Cargo capability: "+ cargoCap);
+        System.out.println("Travel speed: "+ travelSpeed);
+        System.out.println("Nationality: "+ nationality);
+    }
+
 }
+
